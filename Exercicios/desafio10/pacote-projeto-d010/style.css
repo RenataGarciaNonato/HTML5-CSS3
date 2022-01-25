@@ -167,3 +167,11 @@ p{
     
     margin-bottom: 0px;
 }
+
+ul{
+    columns: 2;
+    list-style-type:"\2714\00a0"  ; 
+    /* lista style type serve para trocar o sinal da lista
+    personalizar com emojie, e sempre colocar o emojie com uma contra barra antes (\)
+    e para dar espaço entre o emojie e a lista coloca \00a0 */
+}
