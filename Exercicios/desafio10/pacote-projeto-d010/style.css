@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url('../pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+}
+
+/*root é para crianr vareaveis, vareavel começa sempre com -- (dois tracinhos)
+ assim fica mais facil se precisar mudar as cores, fonte de letra etc..
+futuramente.
+para chamar um avariavel na tag exemplo 
+colo: var(--nome da vareavel) */
+
+:root{
+    --cor0 :#72fda2;
+    --cor1 :rgb(201,247,201);
+    --cor2 :#b4e9c6;
+    --cor3 :#53a871;
+    --cor4 :rgb(75,156,75);
+    --cor5 :rgb(58,114,58);
+
+    --fonte-android :'android', 'cursive';
+
+
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:var(--cor0);
+   
+
+
+   
+    
+}
+
+
+header{
+    margin: 5px;
+    background-color:var(--cor3);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+ nav{
+     padding: 10px;
+     text-align: left;
+     
+     
+     
+ }
+
+
+ nav  > a{
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    
+
+}
+
+nav > a:hover{
+    text-decoration: underline ;
+    background-color: black;
+    }
+
+
+article {
+background-color: white;
+margin-right: 100px;
+margin-bottom: 100px;
+margin-left: 100px;
+padding-top: 10px;
+padding-right: 250px ;
+padding-bottom: 150px ;
+padding-left:250px ;
+}    
+
+.aextra {
+    padding: 100px;
+background-color:  white
+
+
+}
+
+.aextra > p{
+    padding-left: 100px ;
+}
+.extraextra {
+height: 500px;
+width: 1200px;
+padding: 0px;
+background-color:var(--cor2);
+}
+
+
+
+img{
+margin-right: 150px;
+margin-bottom: 50px;
+margin-left: 150px;
+
+}
+
+h2{
+  background-color:var(--cor1);
+  color:var(--cor4);
+  font-family: var(--fonte-android
+  );
+ 
+}
+
+.h2letradiferente{
+    background-color: white;
+    color:var(--cor5);
+}
+
+
+.h2-diferente{
+  color: white;
+  background-color:var(--cor3);
+}
+
+.h2letradiferente{
+    font-family: var(--fonte-android);
+}
+
+footer{
+background-color:var(--cor3);
+color: white;
+text-align: center;
+height: 35px;
+padding-top: 10px;
+}
+
+a{
+    color:var(--cor4);
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: #d5e9dc ;
+}
+
+p{
+    padding: 15px;
+}
+
+.video{
+    padding-top:50px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+    background-color:var(--cor3);
+}
+
+.principal{
+    
+    margin-bottom: 0px;
+}

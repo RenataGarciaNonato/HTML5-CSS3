@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+    <!-- essa forma a baixo é a forma mais simples de colocar video
+    porem as vezes do formato não é compativel com todos os navegadores
+    <video src="midia/meu-video.mp4" width="400" controls></video>-->
+
+    <video width="500" poster="imagem/limao1.jpg" height="300" controls loop>  <!--poster é para colocar uma capa 
+         para o video não é obrigatorio, heigth="", é a altura , width"" é a largura -->
+        <source src="midia/meu-video.mp4" width="200"  type="video/mp4">
+       <!--Se tiver o mesmo video em varios formatos -->
+        <source src="midia/meu-video.m4v" type="video/m4v">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>Seu Navegador não tem compatibilidade </p>
+    </video>
+    <!--Para colocar um video do youtube no site basta achar o video no youtube
+    clicar em compartilhar
+    clicar no icone <> imcorporar
+    Copiar do imcorporado
+    e colar no HTML 
+    veja a baixo.-->
+    <h1>Insirindo videos do youtube</h1>
+    <p>Indicado para o site não ficar pesado, e para não gerar muito custo
+        pode se usar tambem o Vimeo
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" 
+    title="YouTube video player" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+     allowfullscreen></iframe>
+
+
+
+</body>
+</html>

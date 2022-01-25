@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Voce pode acessar meu repositório público no
+        <a href="https://github.com/RenataGarciaNonato" target="_blank" rel="external">  GitHub</a> </p>
+    <p>acesso o  <a href="https://www.youtube.com/">youtube</a> </p>
+   <!--para adicionar um link adicione a tag <a href"aqui vem o link" o nome do link, 
+exemplo para youtube a cima
+obs: o parametro target="_blank" rel="external" faz com que o link abra 
+    em outra aba do navegador, como no exemplo a cima do github-->
+
+    <h1>Links internos</h1> <!--Fazer uma relação entre as paginas do mesmo site-->
+    <p>Esta é a primeira pagina do meu site, se você quiser 
+        pode acessar tambem a minha <a href="pag002.html" rel="next" target="_self">segunda pagina</a>
+    </p>
+    <p>Você também pode acessar a 
+        <a href="noticias/pag003.html" rel="next" target="_self">página de notícias (página 3)</a>
+    </p>
+  <!--rel"next" indica que é uma poxima página (do prorpio site), 
+    target"_self" indica que é uma procxima pagina para abrir na mesma aba-->
+
+<h1>Link para Download</h1>
+<ul>
+    <li><a href="livro/ingles.pdf" download="ingles.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+    <li><a href="livro/ingles.rar"download="ingles.rar" type="application/rar">Baixar o livro compactado</a></li>
+</ul>
+
+</body>
+</html>
